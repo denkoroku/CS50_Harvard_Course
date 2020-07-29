@@ -1,0 +1,8 @@
+Your project must have at least two sprites, at least one of which must resemble something other than a cat.
+Your project must have at least three scripts total (i.e., not necessarily three per sprite).
+Your project must use at least one condition, one loop, and one variable.
+Your project must use at least one sound.
+Your project should be more complex than most of those demonstrated in lectures
+
+
+link to my project:
