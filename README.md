@@ -21,3 +21,8 @@ Scratch program
 **pset4**
 -filter: applies greyscale, sepia, blur and horizontal flip to images
 -recovery: recovers jpegs from a memory card
+
+**pset5**
+-speller: uses a hash table to create a spellchecking program
+
+
