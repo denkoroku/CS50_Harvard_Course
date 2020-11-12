@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Index
+{% endblock %}
+
+{% block main %}
+
+<h1>index page</h1>
+      <table>
+          <thead>
+              <th>Symbol</th>
+              <th>Name</th>
+              <th>Shares</th>
+              <th>Price</th>
+              <th>Total</th>
+          </thead>
+          <tbody>
+
+            {% for row in portfolio %}
+
+            <tr>
+                 <td>{{row.symbol}}</td>
+                 <td>{{row.name}}</td>
+                 <td>{{row.quantity}}</td>
+                 <td>${{row.price}}</td>
+                 <td>${{row.price * row.quantity}}</td>
+            </tr>
+            {% endfor %}
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>${{grandTotal}}</td>
+            </tr>
+
+          </tbody>
+      </table>
+
+{% endblock %}
